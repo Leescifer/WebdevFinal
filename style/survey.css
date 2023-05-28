@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Poppins:wght@300;400;500;600&family=Rajdhani:wght@300;400;500&family=Roboto+Slab:wght@100;300&family=Roboto:ital,wght@0,100;0,400;0,500;1,300;1,400&family=Wix+Madefor+Text:ital,wght@0,400;0,500;1,400&display=swap');
+
+
+
+body{
+  background: url(../pictures/cream.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header{
+  font-size:26px;
+  color:black;
+  font-weight:bold;
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:20px;
+  background: rgba(130, 82, 82, 0.384);
+}
+
+#survey-form{
+  background-color:#3f2a2a;
+  font-family:Quicksand;
+  max-width:70%;
+  margin:auto;
+  padding:0;
+  border-radius:15px;
+  background: url(../pictures/cofsr.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#description{
+  text-align:center;
+  font-size:16px;
+  padding-top:17px;
+  font-weight:bold;
+}
+
+.fieldset{
+  border-width:0;
+  padding-top:1%;
+
+}
+
+.sub-group{
+  position:relative;
+  right:30px;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  padding:1%;
+}
+
+label.left{
+  width:30%;
+  padding-right:4%;
+  text-align:right;
+}
+
+
+.right{
+  width:30%;
+}
+
+.input-field{
+  height:20px;
+  padding:5px;
+  border: 1px solid #361c1c;
+  border-radius: 2px;
+}
+
+#dropdown{
+  font-family:Quicksand;
+  height:30px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.checkbox{
+  position:relative;
+  padding:3px;
+  right:3px;
+  bottom:15px;
+}
+
+.radio{
+  position:relative;
+  padding:3px;
+  bottom:15px;
+}
+
+h2{
+  position:relative;
+  bottom:8px;
+  font-size:16px;
+  text-align:center;
+  font-weight:bold;
+}
+
+.commentbox{
+  text-align:center;
+}
+
+textarea{
+  width:65%;
+  border-radius:4px;
+}
+
+#submit{
+  background:#FFE4E1;
+  font-family:Roboto;
+  border-radius:4px;
+  font-size:23px;
+}
+
+label:hover{
+  cursor:pointer;
+}
+
+@media (max-width: 800px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 580px) {
+  body {
+    font-size: 9px;
+  }
+}
